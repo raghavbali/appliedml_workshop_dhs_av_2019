@@ -6,6 +6,19 @@ Workshop @ DataHack Summit 16 November,2019
 
 Have you ever wondered how to apply machine learning to business problems? This workshop is specially designed to help learn the concepts, tools and techniques involved. You will go through real-life case studies and experience how this is done in the industry. The focus of this workshop will be on the machine learning pipeline data cleaning, feature engineering, model building and evaluation. You will also learn how to structure a business problem as an ML problem, and then go on to build, select and evaluate the model.
 
+### Agenda:
++ Introduction to ML Ecosystem
++ Data Preprocessing and Analysis
++ Data Visualizations and Storytelling
++ Regression Models
++ Classification Models
++ Advanced ML:
+    - Support Vector Machines
+    - Decision Trees
+    - Ensembles
++ Pipelines
++ Deployment
+
 ---
 ## Pre-requisites
 + System Requirement and Setup
@@ -24,4 +37,9 @@ Have you ever wondered how to apply machine learning to business problems? This 
 
   ----
   ## Authors
-  <img src="assets/raghav.png"><img src="assets/dipanjan.png">
+<table border=0>
+  <tr>
+    <td><a href="http://www.linkedin.com/in/baliraghav"><img src="assets/raghav.png"></a></td>
+    <td><a href="https://www.linkedin.com/in/dipanzan/"><img src="assets/dipanjan.png"></a></td>
+  </tr>
+</table>
