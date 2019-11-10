@@ -10,9 +10,9 @@ __Starting the Server__
 ```
 # Starting the server using command prompt
 
->python web_app.py
-# This will start the flask server in debug mode at port **9899**
-# Checkout the server by opening a browser at http://localhost:9899
+>python server.py
+# This will start the flask server in debug mode at port **9090**
+# Checkout the server by opening a browser at http://localhost:9090
 ```
 
 __Using the Server__
