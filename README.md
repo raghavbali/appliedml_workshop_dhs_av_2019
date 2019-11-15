@@ -17,6 +17,7 @@ Have you ever wondered how to apply machine learning to business problems? This 
     - Decision Trees
     - Ensembles
 + Pipelines
++ Deep Learning
 + Deployment
 
 ---
