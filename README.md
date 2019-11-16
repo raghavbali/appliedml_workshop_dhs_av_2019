@@ -7,24 +7,28 @@ Workshop @ DataHack Summit 16 November,2019
 Have you ever wondered how to apply machine learning to business problems? This workshop is specially designed to help learn the concepts, tools and techniques involved. You will go through real-life case studies and experience how this is done in the industry. The focus of this workshop will be on the machine learning pipeline data cleaning, feature engineering, model building and evaluation. You will also learn how to structure a business problem as an ML problem, and then go on to build, select and evaluate the model.
 
 ### Agenda:
-+ Introduction to ML Ecosystem
++ Introduction to ML Ecosystem and Data Science
 + Data Preprocessing and Analysis
 + Data Visualizations and Storytelling
 + Regression Models
 + Classification Models
-+ Advanced ML:
++ Advanced ML - Feature Engineering and Regularization
++ Model Hyperparameter Tuning
++ Advanced ML - Supervised Models
     - Support Vector Machines
     - Decision Trees
     - Ensembles
 + Pipelines
-+ Deep Learning
-+ Deployment
++ Advanced ML - Deployment
++ Unsupervised ML - Clustering
++ Advanced ML - Natural Language Processing
++ Advanced ML - Building and Deploying Deep Learning Models
 
 ---
 ## Pre-requisites
 + System Requirement and Setup
     - Laptop with at least 4-8 GB of RAM
-    - We will be using Google Colab for the workshop, hence make sure you have a google login and space on your google drive
+    - We will be using Google Colab for the workshop, hence make sure you have a google login and know how to use colab
 + Offline Setup [Optional]
     - GPU good to have but optional
     - Install Anaconda [link](https://docs.anaconda.com/anaconda/install/)
@@ -37,7 +41,7 @@ Have you ever wondered how to apply machine learning to business problems? This 
 
 
   ----
-  ## Authors
+  ## Instructors
 <table border=0>
   <tr>
     <td><a href="http://www.linkedin.com/in/baliraghav"><img src="assets/raghav.png"></a></td>
