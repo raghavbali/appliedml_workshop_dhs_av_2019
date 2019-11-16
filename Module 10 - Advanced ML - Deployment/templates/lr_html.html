@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+    <head>
+        <script src="utils.js"></script>
+        <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
+        <title>Deploy ML:Linear Regression </title>
+    </head>
+
+    <body>
+        <h1> Serving::Regression Model </h1>
+        <h3> This server provides endpoints to access a linear regression model </h3>
+
+        <h3> Endpoints</h3>
+        <ul>
+            <li> <b><i>/train_model</i></b> : endpoint to train a lr model</li>
+            <li> <b><i>/predict_outcome</i></b> : endpoint to get predictions from lr model</li>
+                <ul><b>Parameters required:</b>
+                    <li>house_size: the size of house required to make prediction for</li>
+                    <li>reponse_type (optional, default is html): allowed value is json</li>
+                </ul>
+        </ul>
+        
+        <h3>Examples</h3>
+        <ul>
+            <li>Train a model : <a href="http://localhost:9090/train_model" target="_blank">http://localhost:9090/train_model</a></li>
+            <li>Get Predictions as json : <a href="http://localhost:9090/predict_outcome?house_size=1750&response_type=json" target="_blank">http://localhost:9090/predict_outcome?house_size=1750&response_type=json</a></li>
+            <li>Get Predictions as html : <a href="http://localhost:9090/predict_outcome?house_size=1750&response_type=html" target="_blank">http://localhost:9090/predict_outcome?house_size=1750&response_type=html</a></li>
+        </ul>
+        <hr>
+        <pre class="prettyprint">
+            <p>{{data}}</p>
+        </pre>
+    </body>
+</html>
